@@ -169,9 +169,8 @@ Conclusion
 
 This project analyzed a ransomware attack against a healthcare organization using industry-standard cybersecurity frameworks. The investigation applied the 5 W's methodology, MITRE ATT&CK techniques, and NIST incident response principles to understand the attack lifecycle, assess organizational impact, and recommend security improvements.
 
-The analysis highlights the importance of proactive cybersecurity measures, employee awareness training, and effective incident response planning in defending against ransomware threats.
+The analysis highlights the importance of proactive cybersecurity measures, employee awareness training, and effective incident response planning in defending against ransomware threats
 
 
+Proactive security controls are more effective than reactive measures.
 
-
-(To be completed)
