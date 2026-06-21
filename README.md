@@ -4,6 +4,30 @@
 
 This project documents and analyzes a ransomware attack against a healthcare organization. The incident is examined using the 5 W's framework, mapped to the MITRE ATT&CK framework, and evaluated using NIST incident response principles.
 
+## Skills Demonstrated
+
+- Incident Response
+- Ransomware Analysis
+- MITRE ATT&CK Framework
+- NIST Incident Response Framework
+- Threat Analysis
+- Security Documentation
+
+## Attack Flow Diagram
+
+```mermaid
+flowchart TD
+    A[Phishing Email] --> B[User Interaction]
+    B --> C[Initial Access]
+    C --> D[Ransomware Execution]
+    D --> E[File Encryption]
+    E --> F[Ransom Note]
+    F --> G[Incident Response]
+    G --> H[Containment]
+    G --> I[Eradication]
+    G --> J[Recovery]
+```
+
 ## Incident Details
 
 **Date:** June 21, 2025
