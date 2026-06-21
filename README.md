@@ -15,14 +15,16 @@ This project documents and analyzes a ransomware attack against a healthcare org
 
 ## Attack Flow Diagram
 
+The diagram below illustrates the ransomware attack lifecycle from initial access through incident response.
+
 ```mermaid
 flowchart TD
-    A[Phishing Email] --> B[User Interaction]
-    B --> C[Initial Access]
+    A[Phishing Email<br>MITRE T1566] --> B[User Interaction<br>MITRE T1204]
+    B --> C[Initial Access Obtained]
     C --> D[Ransomware Execution]
-    D --> E[File Encryption]
-    E --> F[Ransom Note]
-    F --> G[Incident Response]
+    D --> E[Data Encryption<br>MITRE T1486]
+    E --> F[Ransom Note Displayed]
+    F --> G[Incident Response<br>NIST Framework]
     G --> H[Containment]
     G --> I[Eradication]
     G --> J[Recovery]
